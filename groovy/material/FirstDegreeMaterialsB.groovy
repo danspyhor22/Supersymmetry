@@ -1178,6 +1178,7 @@ class FirstDegreeMaterialsB {
 
         Permendur = new Material.Builder(8839, SuSyUtility.susyId('permendur'))
                 .ingot().liquid(new FluidBuilder().temperature(1700))
+                .components(Iron * 22, Cobalt * 21, Vanadium)
                 .flags(GENERATE_BOLT_SCREW)
                 .build()
 
